@@ -1,0 +1,59 @@
+{% load static %} 
+<DOCTYPE html> 
+<html lang="en"> 
+<head> 
+ <title>Home</title> 
+ <!-- CSS 1 -->
+ <link rel="stylesheet" href="{% static 'css/styles.css' %}"> 
+ <!-- CSS BOOTSTRAP -->
+ <link rel="stylesheet" href="{% static 'vendor/bootstrap/bootstrap.css' %}
+"> 
+</head> 
+<body> 
+ <img id="banner" src="{% static 'img/home.jpg' %}" alt=""> 
+ <div id="menu"> 
+ <ul> 
+ <li><a href="/">Home</a></li> 
+ <li><a href="/about/">About</a></li> 
+ <li><a href="/Mk/">Mata Kuliah</a></li> 
+ <li><a href="/mahasiswa/">Buku Mahasiswa</a></li> 
+
+ </ul> 
+ </ul> 
+ </div> 
+ <!-- KELAS CONTAINER BOOTSTRAP -->
+ <div class="container"> 
+ <br> 
+ <div class="jumbotron"> 
+ <h1 class="display-4">Selamat Datang di Kelas Pemrograman Python</h1> 
+ <p class="lead">Sejarah:</p> 
+ <hr class="my-4"> 
+ <p>Python dibuat dan dikembangkan oleh Guido Van Rossum, yaitu seorang programmer 
+    yang berasal dari Belanda. Pembuatannya berlangsung di kota Amsterdam, 
+    Belanda pada tahun 1990. Pada tahun 1995 Python dikembangkan lagi agar lebih 
+    kompatibel oleh Guido Van Rossum. Selanjutnya pada awal tahun 2000, terdapat 
+    pembaharuan versi Python hingga mencapai Versi 3 sampai saat ini. 
+    Pemilihan nama Python sendiri diambil dari sebuah acara televisi yang lumayan terkenal yang bernama Mothy 
+    Python Flying Circus yang merupakan acara sirkus favorit dari Guido van Rossum..</p> 
+ <hr class="my-4"> 
+ 
+ <a class="btn btn-primary btn-lg" href="#" role="button">Topik Lainnya</a> 
+ </div> 
+ </div> 
+
+ <!-- FOOTER -->
+ <footer class="footer"> 
+ <div class="container"> 
+ <span class="text-dark">Copyright 2019</span> 
+ </div> 
+ </footer> 
+ 
+ <!-- JS BOOTSTRAP -->
+ <script src="{% static 'vendor/bootstrap/jquery-3.3.1.slim.min.js' %}" type="text/javascript"></script> 
+ <script src="{% static 'vendor/bootstrap/popper.min.js' %}" type="text/jav
+ascript"></script> 
+ <script src="{% static 'vendor/bootstrap/bootstrap.js' %}" type="text/java
+script"></script> 
+ 
+</body> 
+</html>
